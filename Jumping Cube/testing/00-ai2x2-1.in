@@ -1,0 +1,11 @@
+#* java -ea jump61.Main
+#Testing to see if Blue wins. Blue should always win in a 2x2 case if Red starts.
+size 2
+dump
+auto red
+#*move/win+
+quit
+
+
+
+
