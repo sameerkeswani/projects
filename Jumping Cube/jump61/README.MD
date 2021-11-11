@@ -1,4 +1,4 @@
-#Modified/Relevant classes
+**Modified/Relevant classes**
 
 Board.java - Represents the board of the game (contains everything pertaining to logistics/rules of the game)
 
