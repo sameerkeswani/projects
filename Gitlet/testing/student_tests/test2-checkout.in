@@ -1,0 +1,27 @@
+# Adding and then removing both before commit.
+I prelude1.inc
+> branch new
+<<<
++ file1.txt wug.txt
++ file2.txt notwug.txt
+> add file1.txt
+<<<
+> add file2.txt
+<<<
+> commit "Added file1 and file2"
+<<<
+> checkout new
+<<<
+* file1.txt
+* file2.txt
++ file3.txt wug2.txt
+> add file3.txt
+<<<
+> commit "Added file3 to new branch"
+<<<
+> checkout master
+<<<
+E file1.txt
+E file2.txt
+= file1.txt wug.txt
+= file2.txt notwug.txt

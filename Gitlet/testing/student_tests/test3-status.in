@@ -1,0 +1,47 @@
+I prelude1.inc
++ file1.txt wug.txt
++ file2.txt notwug.txt
++ file3.txt wug2.txt
+> add file1.txt
+<<<
+> add file2.txt
+<<<
+> add file3.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+file1.txt
+file2.txt
+file3.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> commit "Added all files"
+<<<
+> status
+I blank-status.inc
+> rm file1.txt
+<<<
+* file1.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+file1.txt
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<

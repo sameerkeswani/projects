@@ -1,0 +1,13 @@
+# Adding and then removing both before commit.
+I prelude1.inc
++ file1.txt wug.txt
++ file2.txt notwug.txt
+> add file1.txt
+<<<
+> add file2.txt
+<<<
+> rm file1.txt
+<<<
+> rm file2.txt
+<<<
+I blank-status.inc
